@@ -5,17 +5,17 @@ import Header from './components/Header/Header'
 import './App.css'
 
 function App() {
-  const { toggleButton, tg } = useTelegram()
+  /*const { toggleButton, tg } = useTelegram()
 
   useEffect(() => {
     tg.ready()
-  }, [])
+  }, [])*/
 
   return (
     <>
-      <Header />
+      {/*<Header />*/}
       <h1>Welcome to Web App</h1>
-      <button onClick={toggleButton}>Toggle</button>
+      <button>Toggle</button>
     </>
   )
 }
